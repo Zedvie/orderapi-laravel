@@ -136,6 +136,7 @@ class AuthController extends Controller
             'message' => 'Registro creado exitosamente',
             'user' => $user
         ];
+        
 
         return response()->json($response, Response::HTTP_CREATED);
     }
